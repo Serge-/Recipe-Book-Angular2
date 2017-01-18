@@ -47,7 +47,7 @@ const routes: Routes = [
 
 
   ],
-  providers: [RecipeService, ShoppingListService, APP_ROUTES_PROVIDERS],
+  providers: [RecipeService, ShoppingListService, APP_ROUTES_PROVIDERS, HttpModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
