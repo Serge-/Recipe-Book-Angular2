@@ -10,11 +10,17 @@ export class RecipeService {
   recipeChanged = new EventEmitter<Recipe[]>();
 
   private  recipes: Recipe[] = [
-    new Recipe('Schnitzel', 'Vary Tasty', 'http://www.paramountbutchershopusa.com/assets/uploads/tray_item_images/1435171328.png',[
+    new Recipe('Schnitzel', 'Very Tasty', 'http://www.paramountbutchershopusa.com/assets/uploads/tray_item_images/1435171328.png',[
         new Ingredient('French Fries', 2),
         new Ingredient('Fresh Meat', 1)
     ]),
-    new Recipe('Salad', 'Vary Healthy', 'http://brownbagonline.com/wp-content/uploads/2013/07/MissMaeSalad.png',[])
+    new Recipe('Salad', 'Very Healthy', 'http://brownbagonline.com/wp-content/uploads/2013/07/MissMaeSalad.png',[
+        new Ingredient('Salad', 2),
+        new Ingredient('Oil', 1)]),
+      new Recipe('Ice Cream', 'Very sweet', 'http://pngimg.com/upload/ice_cream_PNG5101.png',[
+          new Ingredient('Milk', 2),
+          new Ingredient('Sugar', 3)])
+
   ];
   constructor(private http: Http) { }
 
