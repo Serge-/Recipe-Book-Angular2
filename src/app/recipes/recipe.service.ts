@@ -10,7 +10,7 @@ export class RecipeService {
   recipeChanged = new EventEmitter<Recipe[]>();
 
   private  recipes: Recipe[] = [
-    new Recipe('Schnitzel', 'Very Tasty', 'http://www.paramountbutchershopusa.com/assets/uploads/tray_item_images/1435171328.png',[
+    new Recipe('Schnitzel', 'Very Tasty', 'https://schnitzel.house/wp-content/uploads/2014/05/schnitzel_480.png',[
         new Ingredient('French Fries', 2),
         new Ingredient('Fresh Meat', 1)
     ]),
