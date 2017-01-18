@@ -3,7 +3,7 @@
 ####Single Page Application based on Angular 2, Bootstrap.
 The Firebase connected, POST/GET to store and retrieve a data.
 
-[Link to GitHub pages](https://serge-.github.io/recipe-book)
+[Link to GitHub page](https://serge-.github.io/recipe-book)
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
